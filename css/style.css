@@ -60,7 +60,7 @@ body {
 
 .jumbotron h1 {
     font-family: 'Poppins';
-    font-size: 32px;
+    font-size: 36px;
     font-weight: bold;
     color: #4871FF;
 }
@@ -68,7 +68,7 @@ body {
 .jumbotron h2 {
     margin-top: 50px;
     font-family: 'poppins';
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     color: #F8F8F8;
 }
@@ -247,7 +247,13 @@ body {
 @media (max-width: 576px) {
     .jumbotron {
         text-align: center;
-        width: 80vw;
+    }
+    .jumbotron h1,
+    h2,
+    p,
+    {
+        width: 40vw;
+        text-align: center;
     }
     .get {
         border: 2px solid #3C3D46;
