@@ -55,7 +55,7 @@ body {
     padding-top: 300px;
     height: 850px;
     margin-top: -60px;
-    text-align: center;
+    text-align: left;
 }
 
 .jumbotron h1 {
@@ -123,10 +123,10 @@ body {
 
 .jobfinder {
     background-image: url(/img/Travelkuy.png);
-    border-radius: 24px;
     background-size: cover;
-    width: 80vw;
-    height: 60vw;
+    background-position: center;
+    width: 30vw;
+    height: 50vh;
     margin: 20px auto;
     transition: 500ms;
 }
@@ -163,7 +163,7 @@ body {
 }
 
 .site {
-    width: 90vw;
+    width: 20vw;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -176,7 +176,7 @@ body {
 .get {
     border: 2px solid #3C3D46;
     border-radius: 10px;
-    height: 250px;
+    height: 35vh;
 }
 
 .get h3 {
@@ -185,11 +185,12 @@ body {
     color: #F8F8F8;
     padding: 10px;
     margin: 33px 60px;
+    margin-top: 100px;
 }
 
 .get .btn-primary {
-    margin: 5px auto;
     padding: auto;
+    margin-top: 100px;
 }
 
 .Tool h2 {
@@ -209,7 +210,7 @@ body {
 .footer {
     background: #000;
     margin-top: 120px;
-    height: 300px;
+    height: 32vh;
     position: relative;
     overflow: hidden;
 }
@@ -243,134 +244,50 @@ body {
 
 /* hp */
 
-@media (min-width: 360px) {}
-
-
-/* tablet */
-
-@media (min-width: 992px) {
+@media (max-width: 576px) {
     .jumbotron {
-        text-align: left;
-        height: 900px;
-    }
-    .jumbotron h1 {
-        font-family: 'Poppins';
-        font-size: 50px;
-        font-weight: bold;
-        color: #4871FF;
-    }
-    .jumbotron h2 {
-        font-family: 'poppins';
-        font-size: 36px;
-        font-weight: bold;
-        color: #F8F8F8;
-    }
-    .jumbotron p {
-        font-family: 'poppins';
-        font-size: 24px;
-        color: #F8F8F8;
-    }
-    .nav-link {
-        font-family: 'Poppins';
-        font-size: 20px;
-        margin-right: 32px;
-        color: #F8F8F8 !important;
-    }
-    .nav-link:hover::after {
-        content: '';
-        display: block;
-        color: #FFB700 !important;
-        font-size: 20px;
-        font-weight: bold;
-        border-bottom: 3px solid #FFB700;
-        width: 50%;
-        margin: auto;
-        padding-bottom: 4px;
-        margin-bottom: -7px;
-    }
-    .bg-dark {
-        background: #000 !important;
-        height: 80px;
-    }
-    .about img {
-        width: 500px;
-        margin: 10px -100px;
-    }
-    .about h2 {
-        font-family: 'Poppins';
-        font-size: 24;
-        font-weight: bold;
-        color: #F8F8F8;
-        text-align: left;
-        margin-left: 60px;
-    }
-    .about .judul {
         text-align: center;
-    }
-    .about p {
-        font-family: 'Poppins';
-        font-size: 18px;
-        color: #F8F8F8;
-        margin: 32px 60px;
-        text-align: left;
-    }
-    .about .btn-primary {
-        margin-right: 240px;
-        padding: auto;
+        width: 80vw;
     }
     .get {
         border: 2px solid #3C3D46;
         border-radius: 10px;
-        height: 120px;
+        height: 28vh;
+    }
+    .get h3 {
+        font-family: 'Poppins';
+        font-weight: 800;
+        color: #F8F8F8;
+        padding: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
     }
     .get .btn-primary {
-        margin: 32px 170px;
-        padding: auto;
+        margin-top: 0;
     }
     .jobfinder {
         background-image: url(/img/Travelkuy.png);
         background-size: cover;
-        border-radius: 24px;
-        width: 400px;
-        height: 300px;
-        margin: auto;
+        background-position: center;
+        width: 64vw;
+        height: 32vh;
+        margin: 20px auto;
         transition: 500ms;
-    }
-    .jobfinder:hover {
-        transform: scale(1.1);
-    }
-    .portfolio h2 {
-        font-family: 'Poppins';
-        font-weight: bold;
-        color: #F8F8F8;
-        margin: 40px;
-        text-align: center;
     }
     .portfolio h4 {
         font-family: 'Poppins';
         font-weight: 500;
         color: #F8F8F8;
-        margin-top: 32px;
-        text-align: center;
-        justify-content: center;
+        width: 50vw;
+        margin: 24px auto;
     }
     .portfolio .btn {
-        margin: auto;
-        width: 180px;
+        width: 40vw;
         height: 50px;
         margin-top: 18px;
     }
-    .site {
-        width: 380px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    .portfolio .content {
-        width: 100%;
-    }
-    .portfolio .row .col-xl-3 {
-        margin-right: 50px;
-        margin-left: 80px;
+    .portfolio .row .jobfinder {
+        margin-top: 64px;
     }
     .portfolio .btn-outline-secondary {
         font-family: 'Poppins';
@@ -381,49 +298,10 @@ body {
         font-weight: 500;
         background-color: #4871FF;
     }
-    .Tool h2 {
-        font-family: 'Poppins';
-        font-weight: bold;
-        color: #F8F8F8;
-        margin-top: 100px;
-        margin-bottom: 32px;
+    .site {
+        width: 60vw;
+        height: auto;
         text-align: center;
-    }
-    .skill .col img {
-        text-align: center;
-        margin-top: 100px;
-        margin-bottom: 80px;
-        width: 80px;
-        height: 80px;
-    }
-    .footer {
-        background: #000;
-        margin-top: 120px;
-        height: 300px;
-        position: relative;
-        overflow: hidden;
-    }
-    .footer h2 {
-        font-family: 'Poppins';
-        font-size: 24;
-        font-weight: bold;
-        color: #F8F8F8;
-        margin-top: 80px;
-    }
-    .background-img {
-        background-image: url(/img/Group\ 13.png);
-        background-size: cover;
-        opacity: 100%;
-        width: 300px;
-        height: 320px;
-        position: absolute;
-        margin-top: 30px;
-        right: -5px;
-    }
-    .iconify {
-        width: 32px;
-        height: 32px;
-        margin-top: 24px;
-        margin-right: 16px;
+        margin: 0 auto;
     }
 }
