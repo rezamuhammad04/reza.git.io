@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #292A31;
+    font-family: 'Poppins';
 }
 
 .bg-dark {
@@ -113,6 +114,16 @@ body {
     padding: auto;
 }
 
+.about .btn-outline-secondary {
+    font-size: 20px;
+    font-weight: 500;
+    padding: auto;
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    margin-left: 32px;
+}
+
 .portfolio h2 {
     font-family: 'Poppins';
     font-weight: bold;
@@ -121,21 +132,17 @@ body {
     text-align: center;
 }
 
-.jobfinder {
-    background-image: url(/img/Travelkuy.png);
-    background-size: cover;
-    background-position: center;
-    width: 30vw;
-    height: 50vh;
+.jobfinder img {
+    width: 400px;
+    height: 380px;
     margin: 20px auto;
-    transition: 500ms;
 }
 
 .portfolio h4 {
     font-family: 'Poppins';
     font-weight: 500;
     color: #F8F8F8;
-    margin-top: 32px;
+    margin: 8px 0;
     text-align: center;
     justify-content: center;
 }
@@ -156,7 +163,7 @@ body {
     font-weight: 500;
 }
 
-.portfolio .btn-outline-secondary:hover {
+.btn-outline-secondary:hover {
     font-family: 'Poppins';
     font-weight: 500;
     background-color: #4871FF;
@@ -191,6 +198,28 @@ body {
 .get .btn-primary {
     padding: auto;
     margin-top: 100px;
+}
+
+.achievment {
+    color: #F8F8F8;
+    text-align: center;
+}
+
+.certificate {
+    margin: 48px 0;
+}
+
+.contain {
+    margin: 50px auto;
+}
+
+.contain img {
+    transition: 500ms;
+}
+
+.contain img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .Tool h2 {
@@ -252,6 +281,14 @@ body {
         width: 40vw;
         text-align: center;
     }
+    .about .btn-outline-secondary {
+        font-size: 20px;
+        font-weight: 500;
+        width: 180px;
+        height: 50px;
+        border-radius: 8px;
+        margin-left: 0;
+    }
     .get {
         border: 2px solid #3C3D46;
         border-radius: 10px;
@@ -268,13 +305,10 @@ body {
     .get .btn-primary {
         margin-top: 20px;
     }
-    .jobfinder {
-        background-image: url(/img/Travelkuy.png);
-        background-size: cover;
-        background-position: center;
-        width: 64vw;
-        height: 32vh;
-        margin: 20px auto;
+    .jobfinder img {
+        width: 70vw;
+        height: 40vh;
+        margin: auto;
         transition: 500ms;
     }
     .portfolio h4 {
@@ -306,5 +340,29 @@ body {
         height: auto;
         text-align: center;
         margin: 0 auto;
+    }
+    .footer h2 {
+        font-family: 'Poppins';
+        font-size: 24;
+        font-weight: bold;
+        color: #F8F8F8;
+        margin-top: 64px;
+        text-align: center;
+    }
+    .iconify {
+        width: 24px;
+        height: 24px;
+        margin-top: 24px;
+        margin-right: 26px;
+    }
+    .icon {
+        text-align: center;
+    }
+    .contain img {
+        margin-top: 32px;
+        width: 70vw;
+    }
+    .alibaba {
+        height: 180px;
     }
 }
