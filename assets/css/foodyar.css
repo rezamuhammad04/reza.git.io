@@ -1,0 +1,588 @@
+ body {
+     font-family: 'Quicksand';
+ }
+ 
+ h1 {
+     font-family: 'Quicksand';
+     font-weight: 700;
+ }
+ 
+ .tutor {
+     margin-top: 40px;
+ }
+ 
+ .nav-link {
+     font-family: 'Quicksand';
+     font-size: 18px;
+     margin-right: 24px;
+     text-align: center;
+ }
+ 
+ .center {
+     text-align: center;
+ }
+ 
+ .btn-secondary {
+     font-family: 'Quicksand';
+     font-weight: 700;
+     color: black !important;
+     background-color: #FBE0DC;
+     border: none;
+     width: 155px;
+     height: 50px;
+     border-radius: 30px 30px 10px 10px;
+     margin-left: 25%;
+ }
+ 
+ .video img {
+     width: 100%;
+     position: relative;
+ }
+ 
+ .circle {
+     height: 70px;
+     width: 70px;
+     background-color: #FBE0DC;
+     border-radius: 50%;
+     position: absolute;
+     top: 40%;
+     right: 40%;
+ }
+ 
+ .triangle {
+     width: 0;
+     height: 0;
+     border-top: 20px solid transparent;
+     border-left: 40px solid #fff;
+     border-bottom: 20px solid transparent;
+     position: absolute;
+     top: 46%;
+     right: 43%;
+ }
+ 
+ .banner {
+     margin-top: 100px;
+ }
+ 
+ .banner h1 {
+     font-family: 'Quicksand';
+     font-weight: 700;
+ }
+ 
+ .banner p {
+     font-family: 'Quicksand';
+     font-weight: 300;
+     margin-top: 10px;
+ }
+ 
+ .btn-primary {
+     color: black !important;
+     font-family: 'Quicksand';
+     font-weight: 700;
+     background-color: #F7C531;
+     border: none;
+     border-radius: 30px 30px 10px 10px;
+     width: 210px;
+     height: 50px;
+     margin-top: 30px;
+ }
+ 
+ .spesial {
+     margin-top: 100px;
+ }
+ 
+ .spesial p {
+     font-family: 'Quicksand';
+     font-weight: 300;
+ }
+ 
+ .spesial h1 {
+     margin-top: 10px;
+ }
+ 
+ .menu h5 {
+     font-family: 'Quicksand';
+     font-weight: 500;
+     font-size: 16px;
+     text-align: center;
+     margin: 10px 0;
+ }
+ 
+ .menu h5:hover {
+     display: block;
+     border-bottom: 3px solid #F7C531;
+     color: #F7C531;
+     cursor: pointer;
+     text-align: center;
+     margin-bottom: -3px;
+ }
+ 
+ .food img {
+     margin-top: 60px;
+     width: 30vw;
+     height: auto;
+ }
+ 
+ .food h6 {
+     margin-top: 10px;
+ }
+ 
+ .food .ratting-star {
+     margin-top: -30px;
+     align-self: center;
+     direction: rtl;
+ }
+ 
+ .food .ratting-star label {
+     display: inline-block;
+     width: 2vw;
+     height: auto;
+     position: relative;
+     cursor: pointer;
+     margin: 0 5px;
+ }
+ 
+ .food .ratting-star input {
+     display: none;
+ }
+ 
+ .food .ratting-star label:before {
+     content: "\2605";
+     position: absolute;
+     display: inline-block;
+     font-size: 24px;
+     top: 0;
+     left: 0;
+     color: rgb(170, 170, 170);
+ }
+ 
+ .food .ratting-star label:after {
+     content: "\2605";
+     position: absolute;
+     display: inline-block;
+     font-size: 24px;
+     top: 0;
+     left: 0;
+     color: #F7C531;
+     opacity: 0;
+ }
+ 
+ .ratting-star label:hover:after,
+ .ratting-star label:hover~label:after,
+ .ratting-star input:checked~label:after {
+     opacity: 1;
+ }
+ 
+ .bg {
+     font-family: 'Quicksand';
+     position: absolute;
+     z-index: -10;
+     margin: -10px 80px;
+     font-weight: bold;
+     font-size: 200px;
+     color: #f1f1f1;
+ }
+ 
+ .testimonial h4 {
+     position: absolute;
+     font-family: 'Quicksand';
+     margin: 100px;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+ }
+ 
+ .camella img {
+     width: 15vw;
+     height: auto;
+     align-self: center;
+     margin-left: 80px;
+ }
+ 
+ .chef {
+     text-align: left;
+     font-family: 'Quicksand';
+     margin-top: 6px;
+     margin-left: -40px;
+ }
+ 
+ .chef h6 {
+     text-align: left;
+     font-family: 'Quicksand';
+     font-weight: 600;
+     font-size: 20px;
+ }
+ 
+ .chef p {
+     text-align: left;
+     font-family: 'Quicksand';
+     font-weight: 400;
+     font-size: 16px;
+ }
+ 
+ .cheff {
+     margin-top: 330px;
+ }
+ 
+ .statistic {
+     margin-top: 80px;
+ }
+ 
+ .statistic h5 {
+     font-size: 24px;
+     padding-right: 10px;
+     font-weight: bold;
+ }
+ 
+ .statistic p {
+     font-weight: normal;
+     font-size: 20px;
+     color: #8B8BA5;
+ }
+ 
+ .aplikasi {
+     text-align: center;
+     margin-top: 100px;
+ }
+ 
+ .aplikasi img {
+     width: 50vw;
+ }
+ 
+ .aplikasi h1 {
+     margin-top: 24px;
+ }
+ 
+ .aplikasi p {
+     margin-top: 10px;
+ }
+ 
+ .store {
+     margin-top: 30px;
+ }
+ 
+ .aplikasi .store img {
+     width: 35vw;
+     padding: 0 0 20px;
+     margin-right: 20px;
+ }
+ 
+ .footer {
+     margin-top: 30px;
+     margin-bottom: 30px;
+     border: 1px solid #ECECEC;
+ }
+ 
+ .footer h6 {
+     font-weight: bold;
+     margin-bottom: 30px;
+     font-size: 16px;
+     margin-top: 24px;
+ }
+ 
+ .footer p {
+     font-size: 12px;
+     font-weight: normal;
+     margin-top: -10px;
+     color: #8B8BA5;
+ }
+ 
+ .copyright {
+     margin: 30px auto;
+     font-weight: normal;
+     font-size: 14px;
+     color: #8B8BA5;
+ }
+ /* Hp */
+ 
+ @media (min-width: 340px) {
+     .cheff {
+         margin-top: 390px;
+     }
+     .footer {
+         margin-top: 30px;
+         margin-bottom: 30px;
+         margin-left: -100px;
+         border: 1px solid #ECECEC;
+     }
+     .footer .img {
+         overflow: hidden;
+     }
+     .btn-secondary {
+         font-family: 'Quicksand';
+         font-weight: 700;
+         color: black !important;
+         background-color: #FBE0DC;
+         border: none;
+         width: 155px;
+         height: 50px;
+         border-radius: 30px 30px 10px 10px;
+         margin-left: 25%;
+     }
+     .testimonial h4 {
+         position: absolute;
+         font-family: 'Quicksand';
+         margin: 100px;
+         font-size: 14px;
+         line-height: 24px;
+         text-align: center;
+     }
+ }
+ /* Dekstop */
+ 
+ @media (min-width: 992px) {
+     h1 {
+         font-family: 'Quicksand';
+         font-weight: 700;
+     }
+     .tutor {
+         margin-top: 40px;
+     }
+     .nav-link {
+         font-family: 'Quicksand';
+         font-size: 18px;
+     }
+     .center {
+         text-align: left;
+     }
+     .btn-secondary {
+         font-family: 'Quicksand';
+         font-weight: 700;
+         color: black !important;
+         background-color: #FBE0DC;
+         border: none;
+         width: 155px;
+         height: 50px;
+         border-radius: 30px 30px 10px 10px;
+         margin-left: 0px;
+     }
+     .video img {
+         width: 100%;
+         position: relative;
+     }
+     .circle {
+         height: 70px;
+         width: 70px;
+         background-color: #FBE0DC;
+         border-radius: 50%;
+         position: absolute;
+         top: 40%;
+         right: 250px;
+     }
+     .triangle {
+         width: 0;
+         height: 0;
+         border-top: 20px solid transparent;
+         border-left: 40px solid #fff;
+         border-bottom: 20px solid transparent;
+         position: absolute;
+         top: 44%;
+         right: 260px;
+     }
+     .banner {
+         margin-top: 100px;
+     }
+     .banner h1 {
+         font-family: 'Quicksand';
+         font-weight: 700;
+     }
+     .banner p {
+         font-family: 'Quicksand';
+         font-weight: 300;
+         margin-top: 10px;
+     }
+     .btn-primary {
+         color: black !important;
+         font-family: 'Quicksand';
+         font-weight: 700;
+         background-color: #F7C531;
+         border: none;
+         border-radius: 30px 30px 10px 10px;
+         width: 210px;
+         height: 50px;
+         margin-top: 30px;
+     }
+     .spesial {
+         margin-top: 100px;
+     }
+     .spesial p {
+         font-family: 'Quicksand';
+         font-weight: 300;
+     }
+     .spesial h1 {
+         margin-top: 10px;
+     }
+     .menu {
+         padding: 0 200px;
+     }
+     .content h5 {
+         font-family: 'Quicksand';
+         font-weight: 500;
+         font-size: 20px;
+         text-align: center;
+         margin: 30px 0;
+     }
+     .content h5:hover {
+         color: #F7C531;
+         cursor: pointer;
+         border-bottom: 3px solid #F7C531;
+         text-align: center;
+         margin-bottom: -3px;
+     }
+     .content {
+         margin-top: 20px;
+     }
+     .food {
+         margin-top: 20px;
+     }
+     .food img {
+         margin-top: 30px;
+         width: 200px;
+         height: 200px;
+     }
+     .food .ratting-star {
+         margin-top: -30px;
+         text-align: center;
+         direction: rtl;
+     }
+     .food .ratting-star label {
+         display: inline-block;
+         width: 24px;
+         height: auto;
+         position: relative;
+         cursor: pointer;
+         margin: 0 5px;
+     }
+     .food .ratting-star input {
+         display: none;
+     }
+     .food .ratting-star label:before {
+         content: "\2605";
+         position: absolute;
+         display: inline-block;
+         font-size: 32px;
+         top: 0;
+         left: 0;
+         color: rgb(170, 170, 170);
+     }
+     .food .ratting-star label:after {
+         content: "\2605";
+         position: absolute;
+         display: inline-block;
+         font-size: 32px;
+         top: 0;
+         left: 0;
+         color: #F7C531;
+         opacity: 0;
+     }
+     .ratting-star label:hover:after,
+     .ratting-star label:hover~label:after,
+     .ratting-star input:checked~label:after {
+         opacity: 1;
+     }
+     .bg {
+         font-family: 'Quicksand';
+         position: absolute;
+         z-index: -10;
+         margin: -10px 80px;
+         font-weight: bold;
+         font-size: 500px;
+         color: #f1f1f1;
+     }
+     .testimonial h4 {
+         position: absolute;
+         font-family: 'Quicksand';
+         font-size: 24px;
+         margin: 300px 300px;
+         line-height: 40px;
+         text-align: center;
+     }
+     .camella img {
+         width: 90px;
+         height: auto;
+         align-self: center;
+         margin-left: 420px;
+     }
+     .chef {
+         text-align: left;
+         font-family: 'Quicksand';
+         margin-top: 12px;
+         margin-left: -40px;
+     }
+     .chef h6 {
+         text-align: left;
+         font-family: 'Quicksand';
+         font-weight: 600;
+         font-size: 22px;
+     }
+     .chef p {
+         text-align: left;
+         font-family: 'Quicksand';
+         font-weight: normal;
+         font-size: 18px;
+     }
+     .cheff {
+         margin-top: 530px;
+         align-self: center;
+     }
+     .statistic {
+         margin-top: 80px;
+     }
+     .statistic h5 {
+         font-size: 32px;
+         font-weight: bold;
+     }
+     .statistic p {
+         font-weight: normal;
+         font-size: 20px;
+         color: #8B8BA5;
+     }
+     .aplikasi {
+         margin-top: 100px;
+     }
+     .aplikasi img {
+         width: 350px;
+     }
+     .aplikasi p {
+         margin-top: 10px;
+     }
+     .store {
+         margin-top: 50px;
+     }
+     .aplikasi .store img {
+         width: 150px;
+         padding: 0 0 20px;
+         margin-right: 20px;
+     }
+     .footer {
+         margin-top: 150px;
+         margin-bottom: 30px;
+         border: 1px solid #ECECEC;
+         padding: 70px;
+     }
+     .footer .img {
+         background-image: url(../image/footer.png);
+         background-repeat: no-repeat;
+         background-size: 90%;
+         width: 150px;
+         height: 150px;
+         margin-top: 35%;
+     }
+     .footer h6 {
+         font-weight: bold;
+         margin-bottom: 30px;
+         font-size: 22px;
+     }
+     .footer p {
+         font-size: 16px;
+         font-weight: normal;
+         margin-top: -10px;
+         color: #8B8BA5;
+     }
+     .copyright {
+         margin: 30px auto;
+         font-weight: normal;
+         font-size: 14px;
+         color: #8B8BA5;
+     }
+ }
